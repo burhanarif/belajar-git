@@ -9,6 +9,7 @@ class Auth extends CI_Controller
         $this->load->library('form_validation');
         $this->load->model('Auth_model', 'auth');
         $this->load->model('Admin_model', 'admin');
+        $this->load->model('Admin_model', 'admin');
     }
 
     private function _has_login()
